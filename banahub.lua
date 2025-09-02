@@ -1,9 +1,9 @@
 local UniverseID = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://apis.roblox.com/universes/v1/places/"..game.PlaceId.."/universe")).universeId
 if game.PlaceId == 1537690962 or game.PlaceId == 4079902982 then
     if getgenv().betabss then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/hlamx/huhu/master/bssrewrite-obfuscated.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Sora-studio/banana/refs/heads/main/1.lua"))()
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BSS-BananaCat.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Sora-studio/banana/refs/heads/main/2.lua"))()
     end
 elseif game.PlaceId == 10260193230 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/Seahuhu-BananaCat.lua"))()
@@ -32,4 +32,5 @@ elseif UniverseID == 7709344486 then
 else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/AV-BananaCat.lua"))()
 end
+
 
